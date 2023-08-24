@@ -1,7 +1,7 @@
 const Glue = require('@hapi/glue');
 const _ = require('lodash');
 const manifest = require('./manifest');
-const logo = require('./lib/show-logo');
+// const logo = require('./lib/show-logo');
 
 require('colors');
 
@@ -50,7 +50,7 @@ async function create(options) {
     const server = await Glue.compose(serverManifest, { relativeTo: __dirname });
     await server.start();
 
-    console.log(logo);
+    // console.log(logo);
 
     return server;
 }
