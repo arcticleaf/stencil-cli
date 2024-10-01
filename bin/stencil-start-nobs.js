@@ -25,7 +25,7 @@ const cliOptions = program.opts();
 const options = {
     open: cliOptions.open,
     variation: cliOptions.variation,
-    channelId: 'disabled',
+    channelId: cliOptions.channelId,
     apiHost: cliOptions.host || API_HOST,
     tunnel: cliOptions.tunnel,
     cache: cliOptions.cache,
