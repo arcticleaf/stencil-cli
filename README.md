@@ -3,7 +3,7 @@
 [![npm (scoped)](https://img.shields.io/npm/v/@bigcommerce/stencil-cli.svg)](https://www.npmjs.com/package/@bigcommerce/stencil-cli)
 ![tests](https://github.com/bigcommerce/stencil-cli/workflows/Tests/badge.svg?branch=master)
 
-The BigCommerce server emulator for local theme development.
+The BigCommerce server emulator for local theme development
 
 ## Install
 
